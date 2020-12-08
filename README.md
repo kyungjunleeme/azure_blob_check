@@ -1,65 +1,13 @@
-# Pyquibase
+# azure_blob_check
 
-Pyquibase is a Python wrapper for [liquibase](http://www.liquibase.org/). 
-There are other liquibase wrapper for python but they all require change log files to be in YAML format. Since I want to use xml file for liquibase, I built my own liquibase wrapper for python.
-Athough I use Pyquibase with xml files only, it should also work with other file types.
+azure 스토리지 계정 내 컨테이너에 저장된 blob 목록을 확인하기 위해 사용함
 
 ## Installation
 
 ```python
-pip install pyquibase
+pip install azure_blob_check
 ```
 
 ## Usage
 
-Currently it supports Sqlite, MySql, and Postgresql 
-
-
-### Update
-##### sqlite
-
-```python
-from pyquibase.pyquibase import Pyquibase
-
-if __name__ == '__main__':
-    pyquibase = Pyquibase.sqlite('test.sqlite', 'db-changelog-1.xml')
-    pyquibase.update()
-```
-
-##### MySQL
-
-```python
-from pyquibase.pyquibase import Pyquibase
-
-if __name__ == '__main__':
-    pyquibase = Pyquibase.mysql(
-        host            = 'localhost',
-        port            = 3306,
-        db_name         = 'pyquibase',
-        username        = 'root',
-        password        = 'test',
-        change_log_file = 'db-changelog-1.xml'
-    )
-    pyquibase.update()
-```
-
-##### Postgresql
-
-```python
-from pyquibase.pyquibase import Pyquibase
-
-if __name__ == '__main__':
-    pyquibase = Pyquibase.postgresql(
-        host            = 'localhost',
-        port            = 3306,
-        db_name         = 'pyquibase',
-        username        = 'root',
-        password        = 'test',
-        change_log_file = 'db-changelog-1.xml'
-    )
-    pyquibase.update()
-```
-
-### Rollback
-```python
-pyquibase.rollback('tag')
+python blob_check.py [blob_name] [container_name] [output_excel_name]
