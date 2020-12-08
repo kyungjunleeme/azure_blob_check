@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+azure_blob_check/__init__.py
+azure_blob_check/blob_check.py
+azure_blob_check.egg-info/PKG-INFO
+azure_blob_check.egg-info/SOURCES.txt
+azure_blob_check.egg-info/dependency_links.txt
+azure_blob_check.egg-info/not-zip-safe
+azure_blob_check.egg-info/top_level.txt

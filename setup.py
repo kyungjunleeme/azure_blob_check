@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from setuptools import setup, find_packages
 
 setup(
@@ -9,7 +10,6 @@ setup(
     url='https://github.com/kyungjunleeme/azure_blob_check',
     download_url='https://github.com/kyungjunleeme/azure_blob_check/archive/main.zip',
     packages=find_packages(exclude=['docs', 'tests*']),
-    long_description=open('README.md').read(),
     install_requires=[],
     keywords=['azure_blob', 'blob_list'],
     python_requires='>=3.6',
