@@ -10,4 +10,4 @@ pip install pyquibase
 
 ## Usage
 
-Currently it supports Sqlite, MySql, and Postgresql 
+Python blob_check [blob_name] [container_name] [output_excel_name]
