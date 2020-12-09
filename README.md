@@ -10,4 +10,4 @@ pip install pyquibase
 
 ## Usage
 
-Python blob_check [blob_name] [container_name] [output_excel_name]
+blob_check [blob_name] [container_name] [output_excel_name]
