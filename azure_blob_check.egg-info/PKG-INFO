@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: azure-blob-check
-Version: 1.0
+Version: 2.0
 Summary: azure blob filelist check
 Home-page: https://github.com/kyungjunleeme/azure_blob_check
 Author: Kyung Jun Lee
@@ -12,4 +12,5 @@ Keywords: azure_blob,blob_list
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.6
 Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
 Requires-Python: >=3.6

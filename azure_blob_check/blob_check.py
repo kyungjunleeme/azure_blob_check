@@ -172,8 +172,7 @@ def filter_work(search_word, check_list):
             list_of_dataframe.append(dataframe_for_file)
 
 
-if __name__ == "__main__":
-
+def main():
     parser = argparse.ArgumentParser(
         description="smartwatch_upload_file_check")
     parser.add_argument(

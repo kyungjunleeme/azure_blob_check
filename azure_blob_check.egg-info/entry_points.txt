@@ -1,0 +1,3 @@
+[console_scripts]
+blob_check = azure_blob_check.blob_check:main
+
