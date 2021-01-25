@@ -5,7 +5,7 @@ azure 스토리지 계정 내 컨테이너에 저장된 blob 목록을 확인하
 ## Installation
 
 ```python
-pip install pyquibase
+pip install azure-blob-check
 ```
 
 ## Usage
